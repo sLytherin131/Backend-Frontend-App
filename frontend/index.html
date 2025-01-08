@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Webinar Management</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Webinar Management</h1>
+
+    <div class="form-container">
+      <h2>Create Webinar</h2>
+      <form id="createWebinarForm">
+        <label for="judul">Judul:</label>
+        <input type="text" id="judul" name="judul" required>
+        
+        <label for="tanggal">Tanggal:</label>
+        <input type="date" id="tanggal" name="tanggal" required>
+        
+        <label for="waktu">Waktu:</label>
+        <input type="time" id="waktu" name="waktu" required>
+        
+        <label for="deskripsi">Deskripsi:</label>
+        <textarea id="deskripsi" name="deskripsi" required></textarea>
+        
+        <label for="panitia_id">Panitia ID:</label>
+        <input type="number" id="panitia_id" name="panitia_id" required>
+        
+        <button type="submit">Create Webinar</button>
+      </form>
+    </div>
+
+    <div class="webinars-list">
+      <h2>All Webinars</h2>
+      <ul id="webinarList"></ul>
+    </div>
+  </div>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
