@@ -1,3 +1,2 @@
-# Backend-Frontend-App
-App Reservasi Lapangan Futsal
-Masih Backend saja, frontend belum jadi
+Admin Reservasi Lapangan Futsal (Backend Frontend API)
+Program ini adalah program untuk menjalankan tugas admin di lapangan futsal untuk reservasi lapangan. Program ini memiliki database, backend, dan frontend. Backend menggunakan bahasa GO sebagai bahasa pemrogramannya, dengan menggunakan gofiber sebagai framework backendnya. Backend terkoneksi dengan database reservasi_futsal.sql. Untuk frontendnya menggunakan html, javascript, css, dan bootstrap sebagai framework. Koneksi antara backend dan frontend sudah menggunakan API HTTP. Program ini memiliki fungsi CREATE, READ, UPDATE, dan
